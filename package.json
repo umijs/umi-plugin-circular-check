@@ -1,0 +1,32 @@
+{
+  "name": "umi-plugin-circular-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/umijs/umi-plugin-circular-check#README",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umijs/umi-plugin-circular-check"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm build",
+    "push": "npm publish --registry=https://registry.npmjs.com/ --access=public"
+  },
+  "author": "fz6m",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/madge": "^5.0.0",
+    "@types/node": "^18.13.0",
+    "@xn-sakina/mental": "^3.1.0",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5",
+    "umi": "^4.0.51"
+  },
+  "dependencies": {
+    "madge": "^6.0.0",
+    "tsconfig-paths": "^4.1.2"
+  }
+}
